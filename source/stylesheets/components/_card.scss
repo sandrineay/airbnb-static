@@ -1,10 +1,9 @@
 .wrapper-grey {
   background: #F4F4F4;
   padding: 40px 0 40px 0;
-}
-
-.wrapper-grey h2 {
-  text-align: center;
+  h2 {
+    text-align: center;
+  }
 }
 
 .card {
@@ -32,14 +31,15 @@
   position: absolute;
   bottom: 10px;
   left: 10px;
-}
-.card-description h2 {
-  font-size: 24px;
-  margin-left: -60px;
-}
-.card-description p {
-  font-size: 13px;
+  h2 {
+    font-size: 24px;
+    margin-left: -60px;
   }
+  p {
+    font-size: 13px;
+  }
+}
+
 .card-link {
   position: absolute;
   top: 0;
@@ -49,7 +49,8 @@
   z-index:2;
   background: black;
   opacity: 0;
+  &:hover {
+    opacity: 0.1;
+  }
 }
-.card-link:hover{
-  opacity: 0.1;
-}
+
