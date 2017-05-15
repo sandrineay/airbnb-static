@@ -83,6 +83,10 @@ activate :deploy do |deploy|
   deploy.method = :git
   deploy.build_before = true
 
+  ["anne", "seb", "romain"].each do |name|
+  proxy "/flats/#{name}.html", "/flats/show.html", :locals => { :owner => name }, :ignore => true
+end
+
   # Optional Settings
   # deploy.remote = 'custom-remote' # remote name or git url, default: origin
   # deploy.branch = 'custom-branch' # default: gh-pages

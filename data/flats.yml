@@ -1,0 +1,51 @@
+seb:
+  owner_name: Sebastien Saunier
+  picture: http://placehold.it/150x150
+  owner_picture: http://placehold.it/150x150
+  cover_picture: ../images/piccadilly.jpg
+  name: Seb's home
+  summary: Charming room in Montmartre
+  description: This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue - 3 minutes walk from Sacré Coeur.
+  city: Paris, France
+  wifi: true
+  accomodates: 2
+  bathrooms: 1
+  bed_type: Real bed
+  bedrooms: 1
+  beds: 1
+  property_type: Apartment
+  room_type: Entire home/apt
+romain:
+  owner_name: Romain Paillard
+  picture: http://placehold.it/150x150
+  owner_picture: http://placehold.it/150x150
+  cover_picture: ../images/piccadilly.jpg
+  name: Romain's home
+  summary: Nice flat in Piccadilly
+  description: This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue - 3 minutes walk from Sacré Coeur.
+  city: London, UK
+  wifi: false
+  accomodates: 10
+  bathrooms: 3
+  bed_type: 2 beds, 5 sofas
+  bedrooms: 5
+  beds: 7
+  property_type: House
+  room_type: Entire home/apt
+anne:
+  owner_name: Anne Collet
+  picture: http://placehold.it/150x150
+  owner_picture: http://placehold.it/150x150
+  cover_picture: ../images/piccadilly.jpg
+  name: Anne's home
+  summary: Lovely house in Brussels
+  description: This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue - 3 minutes walk from Sacré Coeur.
+  city: Brussels, Belgium
+  wifi: false
+  accomodates: 3
+  bathrooms: 2
+  bed_type: Real beds
+  bedrooms: 2
+  beds: 2
+  property_type: Mansion
+  room_type: Entire home/apt
